@@ -1,7 +1,9 @@
 #include <cstdio>
 
 char* toUpper(char* input) {
-	// TO DO - wtf?
+	int i;
+	int delka;
+	delka strlen (input);
 }
 
 int main() {
