@@ -11,6 +11,62 @@
     task03 -v 13 4 // should print "sum of 2 arguments is 17"
 */
 
+#include<string.h>
+#include<stdio.h>
+
+int suma;
+bool vHere = false;
+bool fHere = false;
+bool iHere = false;
+
+
+
+int cisla(int argc, char* argv[]){
+  int cislo;
+  for(int i=1; i<argc; i++) {
+    if(strcmp(argv[i],"-v") !=0){
+      sscanf(argv[i], "%d", &cislo);
+      suma+=cislo;
+    }
+  
+  }
+  return suma;
+  
+}
+
 int main(int argc, char* argv[]) {
-  // TODO
+  for(int i=1; i<argc;i++){
+    if(strcmp(argv[i],"-v") == 0){
+      vHere = true;
+      break;
+    }
+  }
+  for(int i=1; i<argc;i++){
+    if(strcmp(argv[i],"-i") == 0){
+      iHere = true;
+      break;
+    }
+  }
+  for(int i=1; i<argc;i++){
+    if(strcmp(argv[i],"-f") == 0){
+      fHere = true;
+      break;
+    }
+  }
+  if(fHere){
+  
+  }
+  else if(iHere){
+  
+  }
+  else{
+    if(vHere){
+      printf("sum of %d arguments is %d",argc - 2, cisla(argc,argv));
+    }
+    else{
+      printf("%d",cisla(argc,argv));
+    }
+  }
+  
+  
 }
