@@ -4,7 +4,7 @@
  - Přidáno
 
 ## task02
- - Zatím jen zkouším
+ - Přidáno
 
 ## task03
  - Musíme spolu ty příklady probrat osobně. Připište pod tuto větu něco, pokud to čtete.
