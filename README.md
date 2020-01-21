@@ -11,3 +11,6 @@
 
 ## task04
  - Takže tento soubor vůbec nečtete a na task04 jste ani nehrábl - promítneme to do hodnocení.
+ 
+## task05
+-
